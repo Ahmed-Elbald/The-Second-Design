@@ -35,7 +35,7 @@ html {
 
 .container {
   margin: auto;
-  width: 98%;
+  padding: 0 1em;
 }
 @media (min-width: 750px) and (max-width: 1200px) {
   .container {
@@ -442,7 +442,7 @@ main .video-sec .video-text .video-btn {
   }
 }
 main .about-sec {
-  height: 60vh;
+  height: 85vh;
   position: relative;
   overflow: hidden;
 }

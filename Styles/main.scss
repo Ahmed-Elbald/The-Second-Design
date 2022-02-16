@@ -34,17 +34,9 @@ input[type="submit"] {
 html {
   scroll-behavior: smooth;
 }
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6 {
-//   font-weight: 400;
-// }
 .container {
   margin: auto;
-  width: 98%;
+  padding: 0 1em;
   @include minmax-mq(750px, 1200px) {
     width: 80%;
   }
@@ -411,27 +403,7 @@ main {
     }
   }
   .about-sec {
-    // height: 70vh;
-    // overflow: hidden;
-    // position: relative;
-    // img {
-    //   position: absolute;
-    //   bottom: -25%;
-    //   left: 50%;
-    //   transform: translateX(-52%);
-    // }
-    // @include max-mq(750px) {
-    //   img {
-    //     width: 100%;
-    //   }
-    // }
-    // @include max-mq(550px) {
-    //   height: 60vh;
-    //   img {
-    //     bottom: -17%;
-    //   }
-    // }
-    height: 60vh;
+    height: 85vh;
     position: relative;
     overflow: hidden;
     img {
