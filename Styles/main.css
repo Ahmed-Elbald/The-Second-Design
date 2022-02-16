@@ -255,6 +255,7 @@ main section .container > p {
   text-align: center;
   padding: 0.5em;
   font-size: 0.8rem;
+  line-height: 2;
 }
 @media (min-width: 750px) {
   main section .container > p {
@@ -491,6 +492,13 @@ main .statistics-sec .container .column {
   display: flex;
   flex-direction: column;
   gap: 1em;
+}
+main .statistics-sec .container .column .icon-cont {
+  width: max-content;
+  padding: 0.7em;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0 auto;
 }
 main .statistics-sec .container .column h2 {
   font-size: 2.5rem;

@@ -234,6 +234,7 @@ main {
         text-align: center;
         padding: 0.5em;
         font-size: 0.8rem;
+        line-height: 2;
         @include min-mq(750px) {
           font-size: 1rem;
         }
@@ -442,6 +443,13 @@ main {
         background-color: $transparent-color;
         color: white;
         @include flex-column-gap(1em);
+        .icon-cont {
+          width: max-content;
+    padding: 0.7em;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 auto;
+        }
         h2 {
           font-size: 2.5rem;
         }
