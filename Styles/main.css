@@ -39,7 +39,7 @@ html {
 }
 @media (min-width: 750px) and (max-width: 1200px) {
   .container {
-    width: 80%;
+    width: 85%;
   }
 }
 @media (min-width: 1200px) {
@@ -206,7 +206,7 @@ html {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  padding: 2em;
+  padding: 2em 1em 2em 3em;
   color: white;
   width: 100%;
   background-color: rgba(15, 116, 143, 0.7);
@@ -217,7 +217,6 @@ html {
 }
 @media (min-width: 750px) {
   .home .home-text {
-    padding: 3em;
     width: 50%;
   }
 }
@@ -317,7 +316,7 @@ main .features img {
   }
 }
 main .features .features-text {
-  padding: 2em;
+  padding: 2em 1em 2em 3em;
   color: white;
   width: 100%;
   background-color: rgba(15, 116, 143, 0.7);
@@ -335,7 +334,6 @@ main .features .features-text li i {
 }
 @media (min-width: 750px) {
   main .features .features-text {
-    padding: 3em;
     width: 50%;
     transform: translatex(100%);
   }

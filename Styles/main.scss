@@ -38,7 +38,7 @@ html {
   margin: auto;
   padding: 0 1em;
   @include minmax-mq(750px, 1200px) {
-    width: 80%;
+    width: 85%;
   }
   @include min-mq(1200px) {
     width: 1200px;
@@ -186,8 +186,6 @@ html {
     }
   }
   .home-text {
-    // padding: 2em;
-    // color: white;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);

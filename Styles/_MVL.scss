@@ -11,14 +11,13 @@ $borders: #80808085;
 // Mixins
 
 @mixin text {
-  padding: 2em;
+  padding: 2em 1em 2em 3em;
   color: white;
   width: 100%;
   background-color: $transparent-color;
 }
 
 @mixin text-l-screen {
-  padding: 3em;
   width: 50%;
 }
 
