@@ -56,7 +56,7 @@ html {
 .btn {
   display: block;
   background-color: $main-color;
-  padding: 0.5em;
+  padding: 1em;
   color: white;
   width: max-content;
   margin: 2em auto;
@@ -589,6 +589,7 @@ main {
   .pricing {
     .pricing-details {
       @include grid-fit(250px, 4em);
+      padding-bottom: 4em;
       .card {
         background-color: rgb(246, 255, 254);
         text-align: center;
