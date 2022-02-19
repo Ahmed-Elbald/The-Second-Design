@@ -695,6 +695,12 @@ main .emailing form {
     width: 50%;
   }
 }
+@media (max-width: 470px) {
+  main .emailing form {
+    display: flex;
+    flex-direction: column;
+  }
+}
 main .emailing form input[type=email] {
   padding: 1em 0;
   background-color: transparent;
